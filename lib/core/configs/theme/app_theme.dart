@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:spotify_remake/core/configs/theme/app.colors.dart';
+import 'package:spotify_remake/core/configs/theme/app_colors.dart';
 
 class AppTheme {
 
@@ -7,6 +7,7 @@ class AppTheme {
     primaryColor: AppColors.primary,
     scaffoldBackgroundColor: AppColors.lightBackground,
     brightness: Brightness.light,
+    fontFamily: 'Satoshi',
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
       backgroundColor: AppColors.primary,
@@ -21,6 +22,7 @@ class AppTheme {
     primaryColor: AppColors.primary,
     scaffoldBackgroundColor: AppColors.darkBackground,
     brightness: Brightness.dark,
+    fontFamily: 'Satoshi',
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
       backgroundColor: AppColors.primary,
